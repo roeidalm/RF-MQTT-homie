@@ -1,0 +1,20 @@
+{
+    "name": "RF Bridge TO MQTT",
+    "device_id": "rf-Bridge-mqtt",
+    "device_stats_interval": 60,
+    "wifi": {
+      "ssid": "your wifi name",
+      "password": "your wifi password"
+    },
+    "mqtt": {
+      "host": "your mqtt host ip",
+      "port": 1883,
+      "base_topic": "devices/",
+      "auth": true,
+      "username": "your mqtt host auth user",
+      "password": "your mqtt host auth pass"
+    },
+    "ota": {
+      "enabled": true
+    }
+  }
